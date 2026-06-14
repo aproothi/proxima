@@ -9,8 +9,8 @@ Built as a learning and portfolio project — each milestone ships something run
 | # | Milestone | Status |
 |---|---|---|
 | 1 | TCP passthrough proxy — async I/O, one task per connection | ✅ done |
-| 2 | HTTP/1.1 reverse proxy — hyper, request/response forwarding | 🔜 |
-| 3 | Multi-upstream routing + load balancing — round-robin, least-conn, health checks | |
+| 2 | HTTP/1.1 reverse proxy — hyper, request/response forwarding | ✅ done |
+| 3 | Multi-upstream routing + load balancing — round-robin, least-conn, health checks | 🔜 |
 | 4 | Config hot-reload — SIGHUP, `Arc<RwLock<Config>>` | |
 | 5 | TLS termination — rustls inbound HTTPS, optional upstream TLS | |
 | 6 | Circuit breaking — per-upstream failure tracking, half-open/open/closed FSM | |
